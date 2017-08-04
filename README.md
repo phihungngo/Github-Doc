@@ -1,9 +1,7 @@
 # Github-Doc
 Ngâm cứu Github 5/8/17
-## Cai dat Git
-```
-// Ubuntu/Debian
-$ sudo apt-get install git
-// CentOS/Fedora/RHEL.
-$ yum install git
-```
+## Install Git
+With Ubuntu/Debian.
+```$ sudo apt-get install git```
+With CentOS/Fedora/RHEL.
+```$ yum install git```
