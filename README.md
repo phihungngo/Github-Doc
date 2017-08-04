@@ -106,7 +106,7 @@ zed@450G1:~/Github-Doc$ git commit -m "first commit"
  1 file changed, 1 insertion(+)
  create mode 100644 HELLO.txt
 ```
-- Push to Github
+- Push to Github (upload file to github)
 ```
 zed@450G1:~/Github-Doc$ git push origin master
 Username for 'https://github.com': phihungngo   
@@ -119,5 +119,41 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/phihungngo/Github-Doc.git
    0687ef8..53c47e2  master -> master
 
+```
+- Pull to Local (update file from github to local)
+```
+zed@450G1:~/Github-Doc$ git pull origin master
+From https://github.com/phihungngo/Github-Doc
+ * branch            master     -> FETCH_HEAD
+Updating 53c47e2..c3a38ed
+Fast-forward
+ README.md | 71 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 70 insertions(+), 1 deletion(-)
+
+```
+## V. Git Log
+```
+zed@450G1:~/Github-Doc$ git log -p
+commit 7286093a4dfef8d2a0f5f7709beefcdb14e3b589
+Author: phihungngo <phihungngo249@gmail.com>
+Date:   Fri Aug 4 22:46:00 2017 +0700
+
+    skip staging
+
+diff --git a/testcm b/testcm
+new file mode 100644
+index 0000000..e69de29
+
+commit c3a38eda4e56776496303df02e3e2fbe37d21f30
+Author: phihungngo <phihungngo249@gmail.com>
+Date:   Fri Aug 4 22:36:52 2017 +0700
+
+    Update README.md
+
+diff --git a/README.md b/README.md
+index 3d994c2..2b69dec 100644
+--- a/README.md
++++ b/README.md
+...
 ```
 
