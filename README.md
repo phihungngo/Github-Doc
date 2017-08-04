@@ -106,4 +106,18 @@ zed@450G1:~/Github-Doc$ git commit -m "first commit"
  1 file changed, 1 insertion(+)
  create mode 100644 HELLO.txt
 ```
+- Push to Github
+```
+zed@450G1:~/Github-Doc$ git push origin master
+Username for 'https://github.com': phihungngo   
+Password for 'https://phihungngo@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/phihungngo/Github-Doc.git
+   0687ef8..53c47e2  master -> master
+
+```
 
