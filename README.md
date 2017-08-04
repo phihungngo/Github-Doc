@@ -53,25 +53,7 @@ color.diff=auto
 ...
 ```
 ## IV. Create Repository
-### Type I: Local Repository
-- Create Repo
-```
-git init test-repository
-Initialized empty Git repository in /home/zed/test-repository/.git/
-```
 
-- Check Status
-```
-$ git status
-On branch master
-
-Initial commit
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-
-        new file:   README
-```
 ### Type II: Clone Repository
 - Clone Repo
 ```
