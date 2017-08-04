@@ -138,4 +138,26 @@ index 3d994c2..2b69dec 100644
 +++ b/README.md
 ...
 ```
+## VI Create Folder
+```
+zed@450G1:~/Github-Doc$ mkdir folderA
+zed@450G1:~/Github-Doc$ cd folderA/
+zed@450G1:~/Github-Doc/folderA$ touch testfol
+zed@450G1:~/Github-Doc/folderA$ git add testfol 
+zed@450G1:~/Github-Doc/folderA$ git commit -m "test"
+[master 54dc5d1] test
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 folderA/testfol
+zed@450G1:~/Github-Doc/folderA$ cd ..
+zed@450G1:~/Github-Doc$ git push 
+Username for 'https://github.com': phihungngo
+Password for 'https://phihungngo@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 370 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/phihungngo/Github-Doc.git
+   b32be7c..54dc5d1  master -> master
+``
 
